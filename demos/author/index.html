@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <base href="/pscomercial/"> --- IGNORE ---
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutorPolímata – Demonstração Interativa</title>
+  <meta name="description" content="Veja a demonstração do AutorPolímata, um PWA para escritores gerenciarem livros, conteúdo exclusivo e comunidade.">
+  <meta property="og:title" content="AutorPolímata – Demonstração Interativa">
+  <meta property="og:description" content="Explore a solução digital para autores.">
+  <link rel="canonical" href="https://polimatastudio.github.io/pscomercial/demos/author/">
+
+  <!-- ===== INFRAESTRUTURA DE RESOLUÇÃO DE CAMINHOS ===== -->
+  <script src="../../js/core/paths.js"></script>
+  <script src="../../js/core/init.js"></script>
+
+  <!-- ===== META TAGS E MANIFEST ===== -->
+  <link rel="icon" href="../../assets/icons/favicon.ico">
+  <link rel="apple-touch-icon" href="../../assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="../../manifest/manifest.json">
+
+  <!-- ===== FONTES ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,600;14..32,700;14..32,900&display=swap" rel="stylesheet">
+
+  <!-- ===== ESTILOS GLOBAIS ===== -->
+  <link rel="stylesheet" href="../../css/tokens.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+  <link rel="stylesheet" href="../../css/components.css">
+  <link rel="stylesheet" href="../../css/pages.css">
+
+  <!-- ===== ESTILOS ORIGINAIS DA DEMO ===== -->
+  <link rel="stylesheet" href="css/demo-author.css">
+</head>
+<body data-demo-id="author">
+  <!-- ===== NAVBAR ===== -->
+  <div id="navbar-placeholder"></div>
+
+  <!-- ===== CONTEÚDO PRINCIPAL ===== -->
+  <main>
+    <section class="section">
+      <div class="container">
+        <!-- Cabeçalho da Demo -->
+        <div class="demo-header">
+          <h1>AutorPolímata – Demonstração Interativa</h1>
+          <p>Explore como um autor pode criar um canal direto com leitores, vender livros e construir comunidade.</p>
+          <a href="../../pages/contato.html" class="btn btn-primary">Solicitar uma demonstração personalizada</a>
+          <button class="btn btn-secondary spm-expand-btn" aria-label="Expandir demonstração">⛶ Expandir</button>
+        </div>
+
+        <!-- Showcase (iframe) -->
+        <div class="demo-showcase-wrapper">
+          <div class="demo-showcase">
+            <iframe src="demo.html" title="Demonstração AutorPolímata" loading="lazy"></iframe>
+          </div>
+        </div>
+
+        <!-- CTA Final -->
+        <div class="demo-cta-section">
+          <h2>Pronto para levar essa solução ao seu projeto?</h2>
+          <p>Entre em contato e descubra como a Polímata pode criar uma experiência digital sob medida para você.</p>
+          <a href="../../pages/contato.html" class="btn btn-primary">Solicitar uma versão para meu projeto</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <div id="footer-placeholder"></div>
+
+  <!-- ===== OVERLAY DO SPM ===== -->
+  <div id="spm-overlay"></div>
+
+  <!-- ===== SPM (Showcase Presentation Mode) ===== -->
+  <script src="../../js/spm.js"></script>
+
+  <!-- ===== APP PRINCIPAL ===== -->
+  <script type="module" src="../../js/app.js"></script>
+</body>
+</html>
