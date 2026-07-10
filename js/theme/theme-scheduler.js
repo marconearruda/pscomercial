@@ -27,7 +27,7 @@ const THEME_SCHEDULE = {
  */
 function getScheduledTheme() {
   // Força o mês de Dezembro (11) para testar o tema Natal
-  const now = new Date(); //new Date(2026, 11, 1); // Ano, Mês (0-11), Dia
+  const now = new Date(2026, 1); //new Date(2026, 11, 1); // Ano, Mês (0-11), Dia
   const month = now.getMonth();
   return THEME_SCHEDULE[month] || null;
 }
