@@ -1,0 +1,45 @@
+{
+  "active": "default",
+  "themes": {
+    "default": {
+      "version": "1.0.0",
+      "enabled": true,
+      "path": "themes/default/"
+    },
+    "aurora": {
+      "version": "1.0.0",
+      "enabled": true,
+      "path": "themes/aurora/"
+    },
+    "horizonte": {
+      "version": "1.0.0",
+      "enabled": true,
+      "path": "themes/horizonte/"
+    },
+    "independencia": {
+      "version": "1.0.0",
+      "enabled": true,
+      "path": "themes/independencia/"
+    },
+    "aurora-rosa": {
+      "version": "1.0.0",
+      "enabled": true,
+      "path": "themes/aurora-rosa/"
+    },
+    "horizonte-azul": {
+      "version": "1.0.0",
+      "enabled": true,
+      "path": "themes/horizonte-azul/"
+    },
+    "natal": {
+      "version": "1.0.0",
+      "enabled": true,
+      "path": "themes/natal/"
+    },
+    "reveillon-infinity": {
+      "version": "1.0.0",
+      "enabled": true,
+      "path": "themes/reveillon-infinity/"
+    }
+  }
+}
