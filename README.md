@@ -1,203 +1,553 @@
-<!-- =========================================
-  POLÍMATA STUDIO | README INSTITUCIONAL
-  Versão profissional, responsiva e personalizável
-========================================= -->
+# ⚡ POLÍMATA — Plataforma de Inteligência Digital
 
-<p align="center">
-  <img src="https://via.placeholder.com/1200x400/0F172A/FFFFFF?text=POLÍMATA+STUDIO" alt="POLÍMATA Studio - Capa">
-</p>
+> *Transformamos ideias, conhecimentos e serviços em experiências digitais inteligentes.*
 
-<h1 align="center">POLÍMATA STUDIO</h1>
+[![Version](https://img.shields.io/badge/version-1.0.0-blue?style=flat-square)](https://github.com/polimatastudio/pscomercial)
+[![Status](https://img.shields.io/badge/status-production-brightgreen?style=flat-square)](https://github.com/polimatastudio/pscomercial)
+[![PWA Ready](https://img.shields.io/badge/PWA-ready-5A0FC8?style=flat-square)](https://github.com/polimatastudio/pscomercial)
+[![Responsive](https://img.shields.io/badge/responsive-mobile--first-00C7B7?style=flat-square)](https://github.com/polimatastudio/pscomercial)
+[![Vanilla JS](https://img.shields.io/badge/vanilla-js-F7DF1E?style=flat-square)](https://github.com/polimatastudio/pscomercial)
+[![HTML5](https://img.shields.io/badge/html5-E34F26?style=flat-square)](https://github.com/polimatastudio/pscomercial)
+[![CSS3](https://img.shields.io/badge/css3-1572B6?style=flat-square)](https://github.com/polimatastudio/pscomercial)
+[![MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
+[![GitHub Pages](https://img.shields.io/badge/hosted%20on-GitHub%20Pages-181717?style=flat-square)](https://polimatastudio.github.io/pscomercial/)
+[![Theme Engine](https://img.shields.io/badge/theme-engine-FF6B6B?style=flat-square)](https://github.com/polimatastudio/pscomercial)
+[![SPM](https://img.shields.io/badge/SPM-Showcase%20Mode-FFC857?style=flat-square)](https://github.com/polimatastudio/pscomercial)
+[![PTF](https://img.shields.io/badge/PTF-Polímata%20Theme%20Foundation-8A2BE2?style=flat-square)](https://github.com/polimatastudio/pscomercial)
 
-<p align="center">
-  <strong>Inteligência Digital Multidisciplinar</strong><br>
-  Transformamos ideias, conhecimentos e serviços em experiências digitais inteligentes.
-</p>
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Est%C3%BAdio-Criativo-111827?style=for-the-badge" alt="Estúdio Criativo">
-  <img src="https://img.shields.io/badge/Tech-Design-2563EB?style=for-the-badge" alt="Tech Design">
-  <img src="https://img.shields.io/badge/IA-Integrada-7C3AED?style=for-the-badge" alt="IA Integrada">
-  <img src="https://img.shields.io/badge/Since-2026-059669?style=for-the-badge" alt="Since 2026">
-</p>
+## 📖 Índice
 
-<p align="center">
-  <a href="[SITE_OFICIAL]">Website</a> •
-  <a href="[PORTFOLIO]">Portfólio</a> •
-  <a href="[CONTATO]">Contato</a>
-</p>
+- [⚡ Sobre o Projeto](#-sobre-o-projeto)
+- [🚀 Principais Recursos](#-principais-recursos)
+- [🛠️ Tecnologias](#️-tecnologias)
+- [🏗️ Arquitetura](#️-arquitetura)
+- [📂 Estrutura do Projeto](#-estrutura-do-projeto)
+- [⚙️ Instalação e Desenvolvimento](#️-instalação-e-desenvolvimento)
+- [📱 PWA](#-pwa)
+- [🎨 Polímata Theme Foundation (PTF)](#-polímata-theme-foundation-ptf)
+- [🎬 Showcase Presentation Mode (SPM)](#-showcase-presentation-mode-spm)
+- [🧩 Componentes](#-componentes)
+- [🗺️ Roadmap](#️-roadmap)
+- [❓ FAQ](#-faq)
+- [🤝 Contribuição](#-contribuição)
+- [📄 Licença](#-licença)
+- [👏 Créditos](#-créditos)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## ⚡ Sobre o Projeto
+
+**Polímata Studio** é uma plataforma institucional e um ecossistema digital que reúne:
+
+- **Portal institucional** com páginas de Soluções, Produções, Sobre e Contato.
+- **Catálogo inteligente de demonstrações** organizado por segmentos (Igrejas, Escolas, Clínicas, Salões, Barbearias, Academias, Comércio, Produtos Digitais, etc.).
+- **Showcase Presentation Mode (SPM)** — visualização em tela cheia com navegação entre demos.
+- **Polímata Theme Foundation (PTF)** — sistema de temas dinâmicos com suporte a agendamento sazonal.
+- **PWA (Progressive Web App)** — instalável, com Service Worker e cache offline.
+- **Totalmente estático** — zero dependências de backend, pronto para qualquer host.
+
+> O projeto foi desenvolvido para operar em **GitHub Pages**, **Netlify**, **Vercel**, **Hostinger**, **Apache**, **Nginx** e **Live Server**, com resolução de caminhos adaptativa via `PathResolver` e `window.PROJECT_BASE`.
+
+📌 **URL oficial:** [https://polimatastudio.github.io/pscomercial/](https://polimatastudio.github.io/pscomercial/)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 🚀 Principais Recursos
+
+| Recurso                          | Descrição                                                                                     |
+|----------------------------------|-----------------------------------------------------------------------------------------------|
+| **🏠 Portal Institucional**      | Home, Soluções, Produções, Sobre, Contato — com carregamento dinâmico de componentes          |
+| **📂 Catálogo de Demonstrações** | Living Stack™ com categorias e pré-visualização de demos por segmento                        |
+| **🎬 SPM**                       | Modo apresentação em tela cheia com navegação, contador e atalhos por teclado                 |
+| **🎨 PTF**                       | Sistema de temas com registry, fallback e agendamento sazonal (Natal, Carnaval, etc.)        |
+| **📱 PWA**                       | Manifesto, Service Worker, instalação e cache offline                                        |
+| **🧩 Componentes Modulares**     | Navbar, Footer, Cards, Hero, Forms, etc. — carregados dinamicamente via JSON                 |
+| **📦 Dados em JSON**             | Todo conteúdo editável (soluções, produções, demos, categorias) em arquivos JSON             |
+| **🌐 Path Resolution**           | Resolução de caminhos adaptativa com `window.PROJECT_BASE` para qualquer host                |
+| **♿ Acessibilidade**             | WCAG 2.2 AA, foco visível, navegação por teclado, ARIA                                       |
+| **🔍 SEO Nativo**                | Meta tags, Open Graph, Twitter Cards, Schema.org, sitemap, robots.txt                        |
+| **⚡ Performance**               | Lazy loading, SVG icons, CSS tokens, JS modular, carregamento assíncrono                     |
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 🛠️ Tecnologias
+
+| Camada               | Tecnologia                         |
+|----------------------|------------------------------------|
+| **Front-end**        | HTML5, CSS3, JavaScript (ES2024)   |
+| **Arquitetura CSS**  | CUBE CSS + Design Tokens           |
+| **Gerenciamento de Dados** | JSON (estático)               |
+| **PWA**              | Service Worker + Manifest          |
+| **Temas**            | PTF — Polímata Theme Foundation    |
+| **SPM**              | Showcase Presentation Mode Engine  |
+| **Build**            | Nenhuma — Vanilla JS + HTML direto |
+| **Hospedagem**       | GitHub Pages (ou qualquer host estático) |
+| **Versionamento**    | Git + GitHub                       |
+
+### 🔹 Badges Técnicos
+
+| Badge | Descrição |
+|-------|-----------|
+| ![Static](https://img.shields.io/badge/static-site-0A0A0A?style=flat-square) | 100% estático |
+| ![Mobile First](https://img.shields.io/badge/mobile-first-00C7B7?style=flat-square) | Design mobile-first |
+| ![Dark Mode](https://img.shields.io/badge/dark-mode-1A1A2E?style=flat-square) | Tema escuro premium |
+| ![Modular](https://img.shields.io/badge/modular-architecture-FF6B6B?style=flat-square) | Arquitetura modular |
+| ![Offline](https://img.shields.io/badge/offline-ready-FFC857?style=flat-square) | Offline-first |
+| ![No Dependencies](https://img.shields.io/badge/no-dependencies-8A2BE2?style=flat-square) | Zero dependências |
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 🏗️ Arquitetura
+
+A plataforma segue uma arquitetura **modular, data-driven e PWA-first**, com separação clara entre apresentação, dados e lógica.
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                     POLÍMATA PLATFORM                       │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  ┌────────────┐  ┌────────────┐  ┌──────────────────────┐  │
+│  │   Portal   │  │    PWA     │  │        SPM           │  │
+│  │  (Site)    │  │ (Instalável)│  │ (Showcase Mode)      │  │
+│  └────────────┘  └────────────┘  └──────────────────────┘  │
+│                                                             │
+│  ┌──────────────────────────────────────────────────────┐   │
+│  │              Polímata Theme Foundation              │   │
+│  │     (Temas dinâmicos + Registry + Scheduler)        │   │
+│  └──────────────────────────────────────────────────────┘   │
+│                                                             │
+│  ┌──────────────────────────────────────────────────────┐   │
+│  │              Component Library                       │   │
+│  │   Navbar • Footer • Cards • Hero • Forms • CTA     │   │
+│  └──────────────────────────────────────────────────────┘   │
+│                                                             │
+│  ┌──────────────────────────────────────────────────────┐   │
+│  │              Data Layer (JSON)                       │   │
+│  │  solutions.json • productions.json • demos.json     │   │
+│  └──────────────────────────────────────────────────────┘   │
+│                                                             │
+│  ┌──────────────────────────────────────────────────────┐   │
+│  │              Path Resolver Engine                    │   │
+│  │     (window.PROJECT_BASE + resolve())               │   │
+│  └──────────────────────────────────────────────────────┘   │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### 🔹 Fluxo de Dados
+
+1. **Páginas HTML** carregam `paths.js` e `app.js`.
+2. `PathResolver` define a base do projeto (`window.PROJECT_BASE`).
+3. `app.js` inicializa módulos:
+   - `loadComponents()` → carrega Navbar e Footer via `fetch`.
+   - `renderSolutions()`, `renderProductions()` etc. → buscam dados em `data/` via `fetch`.
+   - `SPM` carrega `demos.json` e gerencia navegação.
+   - `ThemeLoader` carrega `registry.json` e aplica o tema ativo.
+4. **Tudo é estático** — os dados são consumidos no client-side.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 📂 Estrutura do Projeto
+
+```
+/pscomercial/
+├── index.html                         # Página inicial
+├── manifest.json                      # Manifesto PWA
+├── service-worker.js                  # Service Worker
+├── pages/
+│   ├── solucoes.html
+│   ├── producoes.html
+│   ├── sobre.html
+│   └── contato.html
+├── demos/
+│   ├── index.html                     # Catálogo de demos
+│   ├── category.html                  # Página de categoria
+│   └── academy-core/                  # Exemplo de demo
+│       ├── index.html
+│       └── demo.html
+├── components/
+│   ├── navbar.html
+│   ├── footer.html
+│   ├── hero.html
+│   ├── card-solution.html
+│   ├── card-production.html
+│   ├── card-project.html
+│   ├── cta.html
+│   ├── section-title.html
+│   └── form-contact.html
+├── css/
+│   ├── tokens.css                     # Design tokens (cores, espaços, etc.)
+│   ├── base.css                       # Reset e estilos base
+│   ├── layout.css                     # Grid e containers
+│   ├── components.css                 # Estilos de componentes
+│   └── pages.css                      # Estilos específicos de páginas
+├── js/
+│   ├── app.js                         # Inicialização global
+│   ├── components.js                  # Carregamento de componentes
+│   ├── router.js                      # Navegação
+│   ├── forms.js                       # Validação de formulários
+│   ├── pwa.js                         # Registro do Service Worker
+│   ├── analytics.js                   # Eventos de tracking
+│   ├── search.js                      # Busca (futuro)
+│   ├── core/
+│   │   ├── paths.js                   # Resolução de caminhos
+│   │   ├── init.js                    # Inicialização base
+│   │   ├── data-loader.js             # Fetch de JSON
+│   │   └── loader.js                  # Carregamento de componentes
+│   ├── theme/
+│   │   ├── theme-loader.js            # Carregador de temas
+│   │   ├── theme-registry.js          # Registry dos temas
+│   │   ├── theme-scheduler.js         # Agendamento sazonal
+│   │   ├── theme-validator.js         # Validação de temas
+│   │   ├── theme-snapshot.js          # Snapshots de estilo
+│   │   └── regression-shield.js       # Testes de regressão
+│   ├── catalog.js                     # Catálogo de demonstrações
+│   └── spm.js                         # Showcase Presentation Mode
+├── data/
+│   ├── site.json
+│   ├── solutions.json
+│   ├── productions.json
+│   ├── projects.json
+│   ├── testimonials.json
+│   ├── contact.json
+│   ├── menu.json
+│   ├── categories.json
+│   └── demos.json
+├── themes/
+│   ├── registry.json                  # Registro de temas disponíveis
+│   └── default/
+│       ├── manifest.json
+│       └── theme.css
+└── assets/
+    ├── icons/                         # Ícones SVG (todos)
+    ├── images/
+    └── fonts/
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## ⚙️ Instalação e Desenvolvimento
+
+### 🔹 Pré‑requisitos
+
+- Navegador moderno (Chrome, Edge, Firefox, Safari)
+- Editor de código (VS Code recomendado)
+- (Opcional) Servidor local como Live Server
+
+### 🔹 Clonagem e Configuração
+
+```bash
+git clone https://github.com/polimatastudio/pscomercial.git
+cd pscomercial
+```
+
+### 🔹 Configuração da Base (Importante)
+
+Para que o projeto funcione corretamente em subdiretórios (ex: `/pscomercial/`), defina a variável `window.PROJECT_BASE` em **todas as páginas HTML**:
+
+```html
+<script>
+  window.PROJECT_BASE = '/pscomercial/'; // ou '/' para raiz
+</script>
+```
+
+> ⚠️ **Importante:** Coloque este script **antes** do carregamento de `paths.js`.
+
+### 🔹 Execução Local
+
+**Opção 1 — Live Server (VS Code)**
+
+1. Instale a extensão Live Server.
+2. Clique com o botão direito em `index.html` → "Open with Live Server".
+3. O projeto estará disponível em `http://127.0.0.1:5500/`.
+
+**Opção 2 — Qualquer servidor HTTP estático**
+
+```bash
+npx serve .          # ou
+python -m http.server
+```
+
+### 🔹 Deploy
+
+**GitHub Pages**
+
+1. Ajuste `window.PROJECT_BASE` para `'/pscomercial/'` (ou o nome do seu repositório).
+2. Faça push para o repositório.
+3. Ative o GitHub Pages nas configurações do repositório (branch `main`, pasta `/`).
+4. Acesse: `https://<seu-usuario>.github.io/pscomercial/`
+
+**Netlify / Vercel / Hostinger**
+
+1. Faça o upload dos arquivos ou conecte o repositório.
+2. Defina `window.PROJECT_BASE = '/'` (se for raiz) ou o subdiretório correspondente.
+3. Publique.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 📱 PWA
+
+A plataforma é uma **Progressive Web App** pronta para instalação.
+
+| Recurso                     | Implementação                                                                 |
+|-----------------------------|-------------------------------------------------------------------------------|
+| **Manifesto**               | `manifest.json` na raiz, com ícones, `start_url: "./"`, `display: standalone` |
+| **Service Worker**          | Registrado via `js/pwa.js` com escopo na raiz (`/pscomercial/`)               |
+| **Cache Offline**           | Recursos estáticos (HTML, CSS, JS, JSON) cacheados no Service Worker          |
+| **Instalação**              | O navegador oferece instalação na tela inicial                                |
+| **Atualizações**            | O Service Worker atualiza o cache em segundo plano                            |
+| **Push Notifications**      | Preparado para futura integração                                              |
+
+🔍 **Teste:** Abra o DevTools → Application → Manifest / Service Workers para validar.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 🎨 Polímata Theme Foundation (PTF)
+
+O **PTF** é o sistema de temas dinâmicos da plataforma. Ele permite trocar a identidade visual da marca de forma programática, com suporte a agendamento sazonal.
+
+### 🔹 Como Funciona
+
+1. **Registry** (`themes/registry.json`) lista todos os temas disponíveis e define o ativo.
+2. Cada tema possui uma pasta com `manifest.json` e `theme.css`.
+3. O `ThemeLoader` carrega o CSS do tema ativo e aplica a classe `theme-<id>` ao `<body>`.
+4. O `ThemeScheduler` permite trocar automaticamente por mês (ex: Natal, Carnaval, Black Friday).
+
+### 🔹 Estrutura de um Tema
+
+```
+themes/
+├── registry.json
+├── default/
+│   ├── manifest.json
+│   └── theme.css
+├── natal/
+│   ├── manifest.json
+│   └── theme.css
+└── ...
+```
+
+### 🔹 Tema Default
+
+O tema padrão é **Neon Minimal Dark Intelligence**, com paleta:
+
+| Token           | Valor     |
+|-----------------|-----------|
+| `--bg`          | `#070A0F` |
+| `--accent-lime` | `#B6FF3B` |
+| `--accent-pink` | `#FF3BD4` |
+| `--accent-blue` | `#3B7BFF` |
+
+### 🔹 Agendamento Sazonal
+
+No `theme-scheduler.js`, você pode mapear meses para temas:
+
+```js
+const THEME_SCHEDULE = {
+  0: 'reveillon-infinity',   // Janeiro
+  1: 'carnaval-royale',      // Fevereiro
+  2: 'equinocio',            // Março
+  // ...
+  11: 'natal',               // Dezembro
+};
+```
+
+### 🔹 Fallback
+
+Se um tema não existir, o `ThemeLoader` carrega automaticamente o `default`.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 🎬 Showcase Presentation Mode (SPM)
+
+O **SPM** é um engine de apresentação que transforma a visualização de demonstrações em uma experiência imersiva em tela cheia.
+
+### 🔹 Funcionalidades
+
+- **Expandir** qualquer demo para tela cheia com um clique.
+- **Navegação** entre demos com botões Anterior/Próximo ou teclado (← →).
+- **Contador** e **indicadores (dots)** mostram a posição atual.
+- **Atalhos**:
+  - `ESC` → Sair do modo apresentação
+  - `←` / `→` → Navegar entre demos
+  - `F` → Entrar/sair do modo apresentação
+- **Fallback inteligente:** se a URL de uma demo não existir, o SPM tenta `demo.html` e, se falhar, carrega um fallback.
+
+### 🔹 Como Usar
+
+1. Na página de uma demo (ex: `demos/academy-core/index.html`), clique em **"Expandir"**.
+2. A demo será exibida em tela cheia com os controles na parte inferior.
+3. Navegue pelas demos disponíveis na mesma categoria (se houver).
+4. Pressione `ESC` ou clique em **"Sair"** para voltar.
+
+### 🔹 Integração com Catálogo
+
+O SPM é alimentado pelo `demos.json` e suporta filtragem por categoria (via `?cat=igrejas` na URL).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 🧩 Componentes
+
+A plataforma utiliza uma **biblioteca de componentes reutilizáveis** carregados dinamicamente via `loadComponent()`.
+
+| Componente          | Arquivo                     | Função                                 |
+|---------------------|-----------------------------|----------------------------------------|
+| **Navbar**          | `navbar.html`               | Menu principal com CTA                 |
+| **Footer**          | `footer.html`               | Rodapé institucional                   |
+| **Hero**            | `hero.html`                 | Bloco de apresentação principal        |
+| **Card Solução**    | `card-solution.html`        | Exibição de soluções por segmento      |
+| **Card Produção**   | `card-production.html`      | Exibição de produções (apps, livros)   |
+| **Card Projeto**    | `card-project.html`         | Exibição de estudos de caso            |
+| **CTA**             | `cta.html`                  | Chamada para ação                      |
+| **Section Title**   | `section-title.html`        | Título e subtítulo de seção            |
+| **Form Contato**    | `form-contact.html`         | Formulário de contato                  |
+
+### 🔹 Renderização Dinâmica
+
+Os cards são populados a partir de dados em JSON via funções como:
+
+- `renderSolutions('#solutions-grid')`
+- `renderProductions('#productions-grid')`
+- `renderProjects('#projects-grid')`
+
+Isso permite atualizar o conteúdo sem modificar o HTML.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 🗺️ Roadmap
+
+- [x] **Sprint 1 — Core Platform**  
+  Portal (Home, Soluções, Produções, Sobre, Contato), PWA base, Theme Foundation, SPM.
+
+- [x] **Sprint 2 — Catálogo e Demonstrações**  
+  Catálogo inteligente com Living Stack™, filtros por segmento, demos interativas.
+
+- [x] **Auditoria e Correções**  
+  Path Resolution, compatibilidade GitHub Pages, validação completa.
+
+- [ ] **Sprint 3 — Laboratório e Conteúdo**  
+  Artigos, experimentos, IA, protótipos, bastidores.
+
+- [ ] **Sprint 4 — Área do Cliente**  
+  Dashboard, projetos, mensagens, arquivos, suporte.
+
+- [ ] **Sprint 5 — Marketplace e Produtos**  
+  Templates, plugins, SaaS, integrações.
+
+- [ ] **Sprint 6 — Internacionalização**  
+  Suporte multilíngue (EN, ES).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## ❓ FAQ
+
+<details>
+<summary><strong>O projeto requer um backend?</strong></summary>
+
+Não. Todo o conteúdo é estático (HTML, CSS, JS, JSON) e consome dados via `fetch()` no client-side. Formulários utilizam serviços externos como Static Forms.
+</details>
+
+<details>
+<summary><strong>Como alterar o conteúdo (soluções, produções)?</strong></summary>
+
+Edite os arquivos JSON em `/data/` correspondentes (ex: `solutions.json`, `productions.json`). As páginas são renderizadas dinamicamente a partir desses dados.
+</details>
+
+<details>
+<summary><strong>Como adicionar um novo tema?</strong></summary>
+
+1. Crie uma pasta em `/themes/` com o nome do tema (ex: `meu-tema/`).
+2. Dentro dela, coloque `manifest.json` e `theme.css`.
+3. Adicione a entrada no `themes/registry.json`.
+4. Para ativação automática, adicione o mês correspondente no `theme-scheduler.js`.
+</details>
+
+<details>
+<summary><strong>Como adicionar uma nova demo?</strong></summary>
+
+1. Crie uma nova pasta em `/demos/` (ex: `minha-demo/`).
+2. Coloque `index.html` e `demo.html` (opcional).
+3. Adicione a demo ao `data/demos.json` com `id`, `title`, `url` e `categoryId`.
+4. Se quiser que a demo apareça em uma categoria, certifique-se que a categoria existe em `categories.json`.
+</details>
+
+<details>
+<summary><strong>O SPM funciona offline?</strong></summary>
+
+Sim, se o Service Worker estiver ativo e os recursos estiverem cacheados. O SPM carrega as demos via `iframe` e o SW pode servir o conteúdo offline.
+</details>
+
+<details>
+<summary><strong>Como ajustar a base para GitHub Pages com subdiretório?</strong></summary>
+
+Defina `window.PROJECT_BASE = '/nome-do-repositorio/'` em **todas** as páginas HTML. O `PathResolver` usará essa base para resolver todos os caminhos.
+</details>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 🤝 Contribuição
+
+Contribuições são bem-vindas! Siga estas diretrizes:
+
+1. **Fork** o repositório.
+2. Crie uma **branch** para sua feature: `git checkout -b feature/nova-feature`.
+3. **Commit** suas alterações: `git commit -m 'Adiciona nova feature'`.
+4. **Push** para a branch: `git push origin feature/nova-feature`.
+5. Abra um **Pull Request**.
+
+### 🔹 Diretrizes de Código
+
+- Mantenha a arquitetura existente (modular, data-driven, vanilla JS).
+- Utilize os **design tokens** em vez de valores fixos.
+- Certifique-se de que todos os caminhos sejam resolvidos via `PathResolver`.
+- Atualize a documentação se necessário.
+- Teste em múltiplos dispositivos e navegadores.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 📄 Licença
+
+Este projeto está licenciado sob a licença **MIT** — veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+```
+MIT License
+
+Copyright (c) 2026 Polímata Studio
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+...
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 👏 Créditos
+
+Desenvolvido com ❤️ pela equipe da **Polímata Studio**.
+
+- **Arquitetura e Desenvolvimento:** Polímata Studio
+- **Design System:** Polímata Theme Foundation (PTF)
+- **SPM Engine:** Showcase Presentation Mode
+- **Path Resolution:** PathResolver Engine
+
+**Agradecimentos especiais** às comunidades de código aberto e aos mantenedores das tecnologias utilizadas.
 
 ---
 
-## ✦ Manifesto
+**Polímata Studio** — *Inteligência Digital Multidisciplinar*
 
-> **Tecnologia complexa, entregue de forma simples.**  
-> Esse é o nosso compromisso.
-
-Acreditamos que o futuro não é apenas digital — ele é humano e digital ao mesmo tempo.  
-Na POLÍMATA Studio, unimos **design**, **tecnologia**, **educação** e **estratégia** para criar soluções que não só funcionam, mas encantam.
-
-Nosso trabalho vai além de “fazer sites” ou “entregar código”.  
-Criamos experiências digitais inteligentes que aprendem, evoluem e geram impacto real.
-
-<div style="padding:16px;border-left:6px solid #2563EB;background:#EFF6FF;border-radius:12px;">
-  <strong>Essência:</strong> clareza, propósito, precisão e humanidade em cada solução.
-</div>
+[![GitHub](https://img.shields.io/badge/GitHub-polimatastudio-181717?style=flat-square&logo=github)](https://github.com/polimatastudio)
+[![Instagram](https://img.shields.io/badge/Instagram-@polimata-E4405F?style=flat-square&logo=instagram)](https://instagram.com/polimata)
+[![YouTube](https://img.shields.io/badge/YouTube-@Polímata--std-FF0000?style=flat-square&logo=youtube)](https://youtube.com/@Polímata-std)
+[![TikTok](https://img.shields.io/badge/TikTok-@polimata-000000?style=flat-square&logo=tiktok)](https://tiktok.com/@polimata)
 
 ---
 
-## ✦ O que fazemos
-
-| Solução | Descrição |
-|---|---|
-| **PWAs** | Aplicações modernas, rápidas e acessíveis pela web, com experiência próxima de apps nativos. |
-| **Plataformas Educacionais** | Ambientes de aprendizagem personalizados, envolventes e inteligentes. |
-| **Aplicativos Inteligentes** | Soluções móveis pensadas para performance, usabilidade e evolução. |
-| **Portfólios Digitais** | Vitrines interativas para profissionais, criadores e instituições. |
-| **Sites Institucionais** | Presença digital com clareza, identidade e conversão. |
-| **Landing Pages** | Páginas focadas em engajamento, ação e resultados. |
-| **Recursos Autorais** | Conteúdos, materiais e produtos digitais com valor educativo e estratégico. |
-| **IA Integrada** | Inteligência artificial aplicada como parte da experiência, não como extra. |
-
----
-
-## ✦ Para quem construímos
-
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;">
-
-<div style="padding:16px;border:1px solid #E5E7EB;border-radius:14px;background:#FFFFFF;">
-<strong> Igrejas</strong><br>
-Comunicação, conexão e alcance com mais clareza.
-</div>
-
-<div style="padding:16px;border:1px solid #E5E7EB;border-radius:14px;background:#FFFFFF;">
-<strong> Escolas</strong><br>
-Experiências educacionais mais ricas, organizadas e modernas.
-</div>
-
-<div style="padding:16px;border:1px solid #E5E7EB;border-radius:14px;background:#FFFFFF;">
-<strong> Professores</strong><br>
-Autoridade digital e novos formatos para ensinar.
-</div>
-
-<div style="padding:16px;border:1px solid #E5E7EB;border-radius:14px;background:#FFFFFF;">
-<strong> Escritores</strong><br>
-Presença digital autêntica e conexão com leitores.
-</div>
-
-<div style="padding:16px;border:1px solid #E5E7EB;border-radius:14px;background:#FFFFFF;">
-<strong> Pequenos negócios</strong><br>
-Soluções premium, acessíveis e pensadas para crescer.
-</div>
-
-<div style="padding:16px;border:1px solid #E5E7EB;border-radius:14px;background:#FFFFFF;">
-<strong> Profissionais criativos</strong><br>
-Portfólios, autoridade e posicionamento com identidade.
-</div>
-
-</div>
-
----
-
-## ✦ Nossa filosofia
-
-<div style="padding:18px;border:1px solid #D1D5DB;border-radius:16px;background:linear-gradient(135deg,#0F172A,#1E293B);color:#FFFFFF;">
-  <h3 style="margin-top:0;">Sabedoria aplicada ao digital</h3>
-  <p style="margin-bottom:0;">
-    Ser polímata é integrar múltiplos campos do conhecimento. Aqui, isso significa unir tecnologia, design, educação, estratégia e criatividade para construir soluções com profundidade.
-  </p>
-</div>
-
-### Nossos princípios
-- **Conhecimento acessível.**
-- **Tecnologia a serviço das pessoas.**
-- **Criatividade sem limites.**
-- **Inovação com coragem.**
-- **Simplicidade com excelência.**
-- **Impacto real acima do excesso.**
-
----
-
-## ✦ Como pensamos
-
-> Pensamos como educadores.  
-> Pensamos como designers.  
-> Pensamos como engenheiros.  
-> Pensamos como estrategistas.  
-> Pensamos como criadores.
-
-Cada projeto nasce de perguntas simples e essenciais:
-- O que a pessoa precisa entender?
-- Como tornar isso mais claro?
-- Como entregar valor de forma elegante?
-- Como criar algo que dure?
-
-<div style="padding:16px;border:2px dashed #7C3AED;border-radius:14px;background:#FAF5FF;">
-  <strong>Foco:</strong> tecnologia que simplifica, comunica e amplia capacidades humanas.
-</div>
-
----
-
-## ✦ Valores que guiamos
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Intelig%C3%AAncia-0F172A?style=flat-square" alt="Inteligência">
-  <img src="https://img.shields.io/badge/Criatividade-111827?style=flat-square" alt="Criatividade">
-  <img src="https://img.shields.io/badge/Inova%C3%A7%C3%A3o-1D4ED8?style=flat-square" alt="Inovação">
-  <img src="https://img.shields.io/badge/Simplicidade-374151?style=flat-square" alt="Simplicidade">
-  <img src="https://img.shields.io/badge/Acessibilidade-059669?style=flat-square" alt="Acessibilidade">
-  <img src="https://img.shields.io/badge/Vis%C3%A3o%20de%20Futuro-7C3AED?style=flat-square" alt="Visão de Futuro">
-</p>
-
----
-
-## ✦ Diferenciais
-
-<table>
-  <tr>
-    <td><strong>Premium acessível</strong><br>Qualidade de alto nível sem excluir pequenos negócios e projetos.</td>
-    <td><strong>Multidisciplinaridade real</strong><br>Design, tecnologia, educação e estratégia integrados em cada entrega.</td>
-  </tr>
-  <tr>
-    <td><strong>IA como parte da solução</strong><br>Inteligência artificial aplicada com propósito e utilidade prática.</td>
-    <td><strong>Experiência humana</strong><br>O foco sempre está nas pessoas, na clareza e no impacto.</td>
-  </tr>
-</table>
-
----
-
-## ✦ Selo institucional
-
-<p align="center">
-  <img src="https://img.shields.io/badge/POLÍMATA-Studio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="POLÍMATA Studio">
-  <img src="https://img.shields.io/badge/Experi%C3%AAncias-Digitais-2563EB?style=for-the-badge" alt="Experiências Digitais">
-  <img src="https://img.shields.io/badge/Intelig%C3%AAncia-Multidisciplinar-7C3AED?style=for-the-badge" alt="Inteligência Multidisciplinar">
-</p>
-
----
-
-## ✦ Visões de futuro
-
-Até 2030, queremos ser reconhecidos como um estúdio de referência em experiências digitais inteligentes.  
-Não queremos ser apenas grandes — queremos ser relevantes, profundos e memoráveis.
-
-<div style="padding:18px;border-radius:16px;background:#ECFDF5;border:1px solid #A7F3D0;">
-  <strong>Visão:</strong> construir soluções duradouras, humanas e tecnologicamente inteligentes.
-</div>
-
----
-
-## ✦ Contato
-
-<p align="center">
-  <a href="[INSTAGRAM]">Instagram</a> •
-  <a href="[LINKEDIN]">LinkedIn</a> •
-  <a href="[EMAIL]">E-mail</a> •
-  <a href="[SITE_OFICIAL]">Site oficial</a>
-</p>
-
----
-
-<p align="center">
-  <em>POLÍMATA Studio — onde o conhecimento encontra a tecnologia.</em>
-</p>
+**Versão do README:** 1.0.0  
+**Última atualização:** 10 de julho de 2026
